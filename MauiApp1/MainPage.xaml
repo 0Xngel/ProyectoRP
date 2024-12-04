@@ -1,0 +1,22 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MaiuApp1.MainPage"
+             Title="Main Page">
+    <VerticalStackLayout Padding="20">
+        <Label Text="Bienvenido" 
+               FontSize="Large" 
+               HorizontalOptions="Center" />
+
+        <Button Text="Iniciar Sesión" 
+                x:Name="IniciarSesionButton" 
+                BackgroundColor="Green" 
+                TextColor="White" 
+                Margin="10" />
+
+        <Button Text="Crear Cuenta" 
+                x:Name="CrearCuentaButton" 
+                BackgroundColor="Blue" 
+                TextColor="White" 
+                Margin="10" />
+    </VerticalStackLayout>
+</ContentPage>
